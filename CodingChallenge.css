@@ -1,0 +1,75 @@
+*{
+	margin:0; 
+	box-sizing: border-box; 
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin:auto;
+    width: 62%;
+    padding: 6% 5%;
+    background-color:rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    border-radius: 15px; 
+} 
+header{
+    text-align: center;
+
+}
+#logo{
+    width: 20%;
+}
+
+#titolo{
+    color: #08dc04;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+nav{
+    background-color: #08dc04;
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+main{
+    color:white;
+
+}
+.monopattino{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+
+.infomonopattino{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.primacarica, .secondacarica, .terzacarica{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.primacarica{
+    background-color: orange;
+    width: 40%;
+}
+
+.secondacarica{
+    background-color: green;
+    width: 70%;
+}
+
+.terzacarica{
+    background-color: red;
+    width: 20%;
+}
